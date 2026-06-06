@@ -1,0 +1,20 @@
+{
+  "name": "kasirku",
+  "version": "2.0.0",
+  "description": "KasirKu - Catatan Keuangan dengan AI Premium & Midtrans Payment Gateway",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": ["keuangan", "kasir", "ai", "midtrans", "catatan-keuangan"],
+  "author": "KasirKu",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "midtrans-client": "^1.4.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
